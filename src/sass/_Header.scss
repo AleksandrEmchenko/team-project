@@ -1,6 +1,32 @@
-ul { list-style: none;
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    align-items: center;
 }
+.navigation {
+    display: flex;
+    gap: 30px;
+}
+.nav-button {
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 1.22;
 
-a { 
-    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 14px 25px;
+
+}
+.nav-link {
+    display: block;
+    padding: 47px 0;
 }
