@@ -1,6 +1,8 @@
-ul {
+ul,
+li {
     padding: 0;
     margin: 0;
+    text-decoration: none;
     list-style: none;
 }
 .section.gifts {
@@ -30,6 +32,10 @@ ul {
 .section-list-item {
     padding-bottom: 137px;
     background-color: #FAFAFA;
+    text-decoration: none;
+}
+.section-item-link {
+    display: block;
 }
 .holiday-title {
     margin: 24px 24px 74px 24px;
@@ -38,8 +44,8 @@ ul {
     padding-left: 24px;
     padding-bottom: 24px;
 }
-.section-list-item:hover,
-.section-list-item:focus {
+.section-item-link:hover,
+.section-item-link:focus {
     filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
     background-color: #FFFFFF;
 }
