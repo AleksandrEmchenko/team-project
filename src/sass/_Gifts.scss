@@ -25,10 +25,10 @@ li {
 }
 .section-list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
-.section-list .section-list-item + .section-list-item {
-    margin-left: 30px;
-}
+
 .section-list-item {
     padding-bottom: 137px;
     background-color: #FAFAFA;
@@ -44,8 +44,8 @@ li {
     padding-left: 24px;
     padding-bottom: 24px;
 }
-.section-item-link:hover,
-.section-item-link:focus {
-    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+.section-item-link:hover .container-holiday,
+.section-item-link:focus .container-holiday {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
     background-color: #FFFFFF;
 }
