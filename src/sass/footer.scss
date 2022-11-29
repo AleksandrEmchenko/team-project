@@ -1,0 +1,107 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.footer {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding-top: 115px;
+    padding-bottom: 35px;
+}
+.footer-section {
+    justify-content: center;
+    width: 1200px;
+}
+.footer-navigation {
+    display: flex;
+    list-style: none;
+    gap: 81px;
+}
+.footer-navigation-wrapp {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 98px;
+}
+.footer-navigation-wrapp::after {
+    position: absolute;
+    bottom: -43px;
+    content: ''; 
+    display: flex;                
+    width: 1000px;    
+    height: 0;                        
+    border: 1px solid #000000;    
+}
+.footer-link {
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    color: #000000;
+
+    transition: color 250ms linear;
+}
+.footer-link:hover,
+.footer-link:focus {
+    color: #F7941E;
+}
+.footer-logo-link {
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2.16;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 141px;
+    margin-right: 141px;
+    color: #F7941E;
+
+    transition: color 250ms linear;
+}
+.footer-logo-link:hover,
+.footer-logo-link:focus {
+    color: #000000;
+}
+.social-links-wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links-list {
+    position: relative;
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.social-link .item:focus {
+    fill: #F7941E;
+}
+.social-link .item:hover {
+    fill: #F7941E;
+}
+
+.social-link .item {
+    transition: fill 250ms linear;
+}
+
+.privacy {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1.43;
+}
