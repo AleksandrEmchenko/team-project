@@ -1,0 +1,56 @@
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.section.gifts {
+    background-color: #FFFFFF;
+}
+.section-title {
+    padding-top: 96px;
+    margin-bottom: 23px;
+    font-size: 32px;
+    line-height: 1.19;
+    text-align: center;
+    color: #000000;
+}
+.try-gifts {
+    margin-bottom: 64px;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #000000;
+}
+.section-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.section-list-item {
+    padding-bottom: 137px;
+    background-color: #FAFAFA;
+    text-decoration: none;
+}
+.section-item-link {
+    display: block;
+}
+.holiday-title {
+    margin: 24px 24px 74px 24px;
+}
+.more {
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+.section-item-link:hover .container-holiday,
+.section-item-link:focus .container-holiday {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    background-color: #FFFFFF;
+}
+.container{
+    width: 1440px;
+    padding: 0 135px;
+    margin: 0 auto;
+}
