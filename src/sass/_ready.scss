@@ -1,0 +1,39 @@
+.ready {
+    min-width: 1440px;
+    height: 240px;
+    background-color: #F7941E;
+    padding-left: 245px;
+    padding-top: 81px;
+    padding-bottom: 69px;
+    display: flex;
+    align-items: center;
+}
+.ready-title {
+    font-size: 32px;
+    line-height: 1.4062;
+}
+.ready-text {
+    margin: 0;
+    font-size: 32px;
+    line-height: 1.4062;
+}
+.ready-list {
+    display: flex;
+    margin-left: 229px;
+    gap: 16px;
+}
+.ready-btn {
+    width: 200px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #231F20;
+    padding: 18px 24px;
+    color: #ffffff;
+}
+.ready-btn .btn-how {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+    padding-left: 17px 16px;
+}
+
